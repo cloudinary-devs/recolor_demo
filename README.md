@@ -12,14 +12,6 @@ Users can upload an image, select objects detected within the image, and apply r
 
 ## Running the App
 
-### Use It on Glitch
-
-You can use [this app](https://glitch.com/edit/#!/ai-powered-object-recolor-demo) without any setup!
-
-### Use Your Own Product Environment
-
-However, if you want to work off of your own product environment:
-
 1. [Sign up](https://cloudinary.com/users/register_free) for a free Cloudinary account.
 2. [Register](https://console.cloudinary.com/settings/addons) for the [Amazon Rekognition AI Moderation](https://cloudinary.com/documentation/aws_rekognition_ai_moderation_addon) add-on. 
 3. [Set up](https://console.cloudinary.com/settings/upload/presets) an unsigned [upload preset](https://cloudinary.com/documentation/upload_presets#banner), called `docs_gen_ai_color_demo` in our example.
@@ -32,7 +24,6 @@ However, if you want to work off of your own product environment:
     const uploadPreset = "your_upload_preset"; // Replace with your Cloudinary upload preset, for example, docs_gen_ai_color_demo
     ```
 4. Run the app. (If you've remixed on Glitch, the app will run automatically.)
-
 
 ## Code Explanation
 
