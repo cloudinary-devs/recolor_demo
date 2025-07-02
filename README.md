@@ -15,9 +15,7 @@ Users can upload an image, select objects detected within the image, and apply r
 1. [Sign up](https://cloudinary.com/users/register_free) for a free Cloudinary account.
 2. [Register](https://console.cloudinary.com/settings/addons) for the [Amazon Rekognition AI Moderation](https://cloudinary.com/documentation/aws_rekognition_ai_moderation_addon) add-on. 
 3. [Set up](https://console.cloudinary.com/settings/upload/presets) an unsigned [upload preset](https://cloudinary.com/documentation/upload_presets#banner), called `docs_gen_ai_color_demo` in our example.
-4. **Remix** it on Glitch <br/>
-    OR <br/>
-   **Run the app locally** by cloning this [GitHub](https://github.com/cloudinary-devs/python_product_recommendations) repository.
+4. Cone this [GitHub](https://github.com/cloudinary-devs/python_product_recommendations) repository.
 2. Update the following variables in the `script.js` file to use your own Cloudinary account:
     ```javascript
     const cloudName = "your_cloud_name"; // Replace with your Cloudinary cloud name
