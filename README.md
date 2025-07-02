@@ -21,7 +21,7 @@ Users can upload an image, select objects detected within the image, and apply r
     const cloudName = "your_cloud_name"; // Replace with your Cloudinary cloud name
     const uploadPreset = "your_upload_preset"; // Replace with your Cloudinary upload preset, for example, docs_gen_ai_color_demo
     ```
-4. Run the app. (If you've remixed on Glitch, the app will run automatically.)
+4. Run the app. 
 
 ## Code Explanation
 
